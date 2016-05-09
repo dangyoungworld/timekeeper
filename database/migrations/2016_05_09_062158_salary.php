@@ -16,6 +16,8 @@ class Salary extends Migration
             $table->increments('id');
             $table->date('from_time')->comment('Thời gian bắt đầu áp dụng mức lương');
             $table->date('end_time')->nullable()->comment('Thời gian kết thúc áp dụng mức lương này');
+            $table->integer('staff_id')->unsigned()->comment('Của nhân viên nào');
+            $table->foreign('staff_id')->references('id')->on('staff');
             $table->decimal('salary');
             $table->timestamps();
             //
@@ -31,6 +33,7 @@ class Salary extends Migration
     {
         Schema::table('salary', function (Blueprint $table) {
             //
+            Schema::drop('salary');
         });
     }
 }

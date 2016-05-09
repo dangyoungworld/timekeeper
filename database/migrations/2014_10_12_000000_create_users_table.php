@@ -17,6 +17,8 @@ class CreateUsersTable extends Migration
             $table->string('name')->unique();
             $table->string('email')->unique();
             $table->string('password');
+            $table->integer('staff_id')->unsigned();
+            $table->foreign('staff_id')->references('id')->on('staff');
             $table->rememberToken();
             $table->timestamps();
         });

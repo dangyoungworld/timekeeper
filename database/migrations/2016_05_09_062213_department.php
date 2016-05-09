@@ -31,6 +31,7 @@ class Department extends Migration
     {
         Schema::table('department', function (Blueprint $table) {
             //
+            Schema::drop('department');
         });
     }
 }

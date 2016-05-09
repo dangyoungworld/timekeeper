@@ -19,9 +19,10 @@ class CreateStaffTable extends Migration
             $table->string('mobile');
             $table->string('location');
             $table->string('gender');
+            $table->date('birthday')->nullable();
             $table->longText('bio')->nullable();
-            $table->integer('salary')->comment('Bảng lương của nhân viên đó');
-            $table->integer('department')->comment('Phòng ban của nhân viên đó');
+            $table->integer('department_id')->unsigned()->comment('Phòng ban của nhân viên đó');
+            $table->foreign('department_id')->references('id')->on('department');
             $table->timestamps();
             //
         });

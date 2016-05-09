@@ -15,6 +15,9 @@ class UserController extends Controller
      */
     public function showProfile($id)
     {
+        $user = User::all();
+        var_dump($user);
+        die;
         $user = [
             'uid' => 1,
             'username' => 'buicongdang',

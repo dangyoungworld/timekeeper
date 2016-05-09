@@ -16,8 +16,10 @@ class Timesheet extends Migration
             $table->increments('id');
             $table->dateTime('check_in');
             $table->dateTime('check_out')->nullable();
-            $table->integer('staff')->comment('Nhân viên nào?');
-            $table->string('of_date');
+            $table->decimal('work_time', 2, 1);
+            $table->integer('client')->comment('Máy chấm nhận công này');
+            $table->integer('staff_id')->unsigned()->comment('Nhân viên nào?');
+            $table->foreign('staff_id')->references('id')->on('staff');
             $table->timestamps();
         });
     }
@@ -30,6 +32,7 @@ class Timesheet extends Migration
     public function down()
     {
         Schema::table('timesheet', function (Blueprint $table) {
+            Schema::drop('timesheet');
             //
         });
     }
