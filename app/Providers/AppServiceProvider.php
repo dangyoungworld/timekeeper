@@ -13,6 +13,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+//        Key chung dùng cho tất cả các view
+        view()->share('username', 'buicongdang');
         //
     }
 

@@ -9,9 +9,23 @@ use App\Http\Requests;
 
 class UserController extends Controller
 {
-    //
+    /**
+     * @param $id
+     * @return mixed
+     */
     public function showProfile($id)
     {
-        return view('user.profile', ['user' => User::findOrFail($id)]);
+        $user = [
+            'uid' => 1,
+            'username' => 'buicongdang',
+            'fullname' => 'Dang Bui',
+            'email' => 'bdangvn@gmail.com'
+        ];
+        if(view()->exists('email.customer')) {
+            echo '1';
+            die;
+        }
+
+        return view('user.profile', ['user' => $user]);
     }
 }
