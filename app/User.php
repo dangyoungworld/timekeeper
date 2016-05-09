@@ -6,7 +6,13 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 
 class User extends Authenticatable
 {
-    protected $_table = 'user';
+    protected $table = 'user';
+    /**
+     * The storage format of the model's date columns.
+     *
+     * @var string
+     */
+    protected $dateFormat = 'U';
     /**
      * The attributes that are mass assignable.
      *

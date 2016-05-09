@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateDayoffsTable extends Migration
+class CreateHolidaysTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,15 +12,13 @@ class CreateDayoffsTable extends Migration
      */
     public function up()
     {
-        Schema::create('dayoffs', function (Blueprint $table) {
+        Schema::create('holidays', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('staff_id')->unsigned();
-            $table->dateTime('start_time');
-            $table->dateTime('end_time');
-            $table->string('description');
-            $table->integer('status')->comment('Phải được các bộ phận quản lý duyệt');
-            $table->integer('type')->comment('Kiểu là xin phép nghỉ hay quên checkin, checkout');
-
+            $table->string('year');
+            $table->integer('type_holiday')->comment('Ngỉ phép năm- Nghỉ Cưới- Nghỉ Con đẻ,...');
+            $table->integer('total_days')->comment('Tổng số ngày nghỉ');
+            $table->boolean('status')->comment('Trạng thái đã được phê duyệt hay chưa');
             $table->foreign('staff_id')->references('id')->on('staff');
             $table->timestamps();
         });
@@ -33,6 +31,6 @@ class CreateDayoffsTable extends Migration
      */
     public function down()
     {
-        Schema::drop('dayoffs');
+        Schema::drop('holidays');
     }
 }

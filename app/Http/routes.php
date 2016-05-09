@@ -17,14 +17,7 @@ Route::get('/', function () {
 });
 Route::get('profile/{id}', 'UserController@showProfile');
 
-Route::group(['prefix' => 'admin', 'middleware' => ['before','after']], function(){
-    Route::get('dashboard',['as' => 'dashboard', function(){
-        echo '<h1>Dashboard!!!!</h1>';
-        $url = Route::current();
-        var_dump($url->getActionName());
-    }]);
-    Route::get('index',['as' => 'index', function(){
-        echo '<h1>Index!!!!</h1>';
-    }]);
+Route::group(['prefix' => 'admin'], function(){
+    Route::get('staff/create', 'StaffController@create');
 
 });
