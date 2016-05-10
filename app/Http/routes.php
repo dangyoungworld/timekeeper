@@ -19,5 +19,6 @@ Route::get('profile/{id}', 'UserController@showProfile');
 
 Route::group(['prefix' => 'admin'], function(){
     Route::get('staff/create', 'StaffController@create');
+    Route::post('staff/create', 'StaffController@create');
 
 });

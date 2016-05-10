@@ -30,6 +30,9 @@ class StaffController extends Controller
      */
     public function create()
     {
+        if(request('post')) {
+            echo '111';
+        }
         return view('staff.create');
     }
 
