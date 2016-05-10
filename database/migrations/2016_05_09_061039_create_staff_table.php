@@ -15,16 +15,15 @@ class CreateStaffTable extends Migration
         Schema::create('staff', function (Blueprint $table) {
             $table->increments('id');
             $table->string('fullname');
-//            $table->string('email');
             $table->string('mobile');
             $table->string('location');
             $table->string('gender');
+            $table->string('picture')->nullable();
             $table->date('birthday')->nullable();
             $table->longText('bio')->nullable();
             $table->integer('department_id')->unsigned()->comment('Phòng ban của nhân viên đó');
             $table->foreign('department_id')->references('id')->on('department');
             $table->timestamps();
-            //
         });
     }
 
