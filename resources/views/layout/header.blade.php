@@ -1,53 +1,111 @@
-<nav class="navbar navbar-default">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Brand</a>
+<!-- Start #header -->
+<div id=header>
+    <div class=container-fluid>
+        <div class=navbar>
+            <div class=navbar-header><a class=navbar-brand href=index-2.html><i class="im-windows8 text-logo-element animated bounceIn"></i><span class=text-logo>spr</span><span class=text-slogan>flat</span></a></div>
+            <nav class=top-nav role=navigation>
+                <ul class="nav navbar-nav pull-left">
+                    <li id=toggle-sidebar-li><a href=# id=toggle-sidebar><i class=en-arrow-left2></i></a></li>
+                    <li><a href=# class=full-screen><i class=fa-fullscreen></i></a></li>
+                    <li class=dropdown><a href=# data-toggle=dropdown><i class=ec-cog></i><span class=notification>10</span></a>
+                        <ul class=dropdown-menu role=menu>
+                            <li><a href=#><i class=en-database></i> Database <span class=notification>3</span></a></li>
+                            <li><a href=#><i class=st-cube></i> Packages <span class="notification blue">17</span></a></li>
+                            <li><a href=#><i class=st-health></i> Disconnects <span class="notification yellow">1</span></a></li>
+                            <li><a href=#><i class=im-images></i> Images <span class="notification teal">320</span></a></li>
+                            <li><a href=#><i class=st-users></i> Users <span class="notification orange">2k</span></a></li>
+                            <li><a href=#><i class=st-meter></i> Traffic <span class="notification magenta">2tb</span></a></li>
+                            <li><a href=#><i class=im-coin></i> Finances <span class="notification pink">+3k</span></a></li>
+                            <li><a href=#><i class=st-folder></i> Directories <span class="notification green">17</span></a></li>
+                            <li><a href=#><i class=st-bag></i> Orders <span class="notification purple">12</span></a></li>
+                            <li><a href=#><i class=ec-contract></i> Contracts <span class="notification dark">7</span></a></li>
+                        </ul>
+                    </li>
+                    <li class=dropdown><a href=# data-toggle=dropdown><i class=ec-mail></i><span class=notification>4</span></a>
+                        <ul class="dropdown-menu email" role=menu>
+                            <li class=mail-head>
+                                <div class=clearfix>
+                                    <div class=pull-left><a href=email-inbox.html><i class=ec-archive></i></a></div>
+                                    <span>Inbox</span>
+                                    <div class=pull-right><a href=email-inbox.html><i class=st-pencil></i></a></div>
+                                </div>
+                            </li>
+                            <li class=search-email>
+                                <form>
+                                    <input name=search placeholder="Search for emails">
+                                    <button type=submit><i class=ec-search></i></button>
+                                </form>
+                            </li>
+                            <li class="mail-list clearfix"><a href=#><img src={{ URL::asset('assets/img/avatars/128.jpg') }} class="mail-avatar pull-left" alt=avatar>
+                                    <p class=name><span class=status><i class=en-dot></i></span> Jason Rivera <span class=notification>2</span> <span class=time>12:30 am</span></p>
+                                    <p class=msg>I contact you regarding my account please can you set up my pass ...</p>
+                                </a></li>
+                            <li class="mail-list clearfix"><a href=#><img src={{ URL::asset('assets/img/avatars/129.jpg') }} class="mail-avatar pull-left" alt=avatar>
+                                    <p class=name><span class="status off"><i class=en-dot></i></span> Steeve Mclark <span class=notification>6</span> <span class=time>10:26 am</span></p>
+                                    <p class=msg>Good job dude awesome work here, please add theese features ...</p>
+                                </a></li>
+                            <li class="mail-list clearfix"><a href=#><img src={{ URL::asset('assets/img/avatars/130.jpg') }} class="mail-avatar pull-left" alt=avatar>
+                                    <p class=name><span class="status off"><i class=en-dot></i></span> Fellix Jones <span class=notification>1</span> <span class=time>7:15 am</span></p>
+                                    <p class=msg>I have some issues when try to reach my product page can you ...</p>
+                                </a></li>
+                            <li class="mail-list clearfix"><a href=#><img src={{ URL::asset('assets/img/avatars/131.jpg') }} class="mail-avatar pull-left" alt=avatar>
+                                    <p class=name><span class=status><i class=en-dot></i></span> Tina Dowsen <span class=notification>5</span> <span class=time>03:46 am</span></p>
+                                    <p class=msg>Hello Sugge, i want to apply for your referal program , please ...</p>
+                                </a></li>
+                            <li class=mail-more><a href=email-inbox.html>View all <i class=en-arrow-right7></i></a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav pull-right">
+                    <li><a href=# id=toggle-header-area><i class=ec-download></i></a></li>
+                    <li class=dropdown><a href=# data-toggle=dropdown><i class=br-alarm></i> <span class=notification>5</span></a>
+                        <ul class="dropdown-menu notification-menu right" role=menu>
+                            <li class=clearfix><i class=ec-chat></i> <a href=# class=notification-user>Ric Jones</a> <span class=notification-action>replied to your</span> <a href=# class=notification-link>comment</a></li>
+                            <li class=clearfix><i class=st-pencil></i> <a href=# class=notification-user>SuggeElson</a> <span class=notification-action>just write a</span> <a href=# class=notification-link>post</a></li>
+                            <li class=clearfix><i class=ec-trashcan></i> <a href=# class=notification-user>SuperAdmin</a> <span class=notification-action>just remove</span> <a href=# class=notification-link>12 files</a></li>
+                            <li class=clearfix><i class=st-paperclip></i> <a href=# class=notification-user>C. Wiilde</a> <span class=notification-action>attach</span> <a href=# class=notification-link>3 files</a></li>
+                            <li class=clearfix><i class=st-support></i> <a href=# class=notification-user>John Simpson</a> <span class=notification-action>add support</span> <a href=# class=notification-link>ticket</a></li>
+                        </ul>
+                    </li>
+                    <li class=dropdown><a href=# data-toggle=dropdown><img class=user-avatar src={{ URL::asset('assets/img/avatars/48.jpg') }} alt=SuggeElson> SuggeElson</a>
+                        <ul class="dropdown-menu right" role=menu>
+                            <li><a href=profile.html><i class=st-user></i> Profile</a></li>
+                            <li><a href=file.html><i class=st-cloud></i> Files</a></li>
+                            <li><a href=#><i class=st-settings></i> Settings</a></li>
+                            <li><a href=login.html><i class=im-exit></i> Logout</a></li>
+                        </ul>
+                    </li>
+                    <li id=toggle-right-sidebar-li><a href=# id=toggle-right-sidebar><i class=ec-users></i> <span class=notification>3</span></a></li>
+                </ul>
+            </nav>
         </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-                <li><a href="#">Link</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">One more separated link</a></li>
-                    </ul>
-                </li>
-            </ul>
-            <form class="navbar-form navbar-left" role="search">
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Search">
-                </div>
-                <button type="submit" class="btn btn-default">Submit</button>
-            </form>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Hello {{ $username }}</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-</nav>
+        <!-- Start #header-area -->
+        <div id=header-area class=fadeInDown>
+            <div class=header-area-inner>
+                <ul class="list-unstyled list-inline">
+                    <li>
+                        <div class=shortcut-button><a href=#><i class=im-pie></i> <span>Earning Stats</span></a></div>
+                    </li>
+                    <li>
+                        <div class=shortcut-button><a href=#><i class="ec-images color-dark"></i> <span>Gallery</span></a></div>
+                    </li>
+                    <li>
+                        <div class=shortcut-button><a href=#><i class="en-light-bulb color-orange"></i> <span>Fresh ideas</span></a></div>
+                    </li>
+                    <li>
+                        <div class=shortcut-button><a href=#><i class="ec-link color-blue"></i> <span>Links</span></a></div>
+                    </li>
+                    <li>
+                        <div class=shortcut-button><a href=#><i class="ec-support color-red"></i> <span>Support</span></a></div>
+                    </li>
+                    <li>
+                        <div class=shortcut-button><a href=#><i class="st-lock color-teal"></i> <span>Lock area</span></a></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- End #header-area -->
+    </div>
+    <!-- Start .header-inner -->
+</div>
+<!-- End #header -->
