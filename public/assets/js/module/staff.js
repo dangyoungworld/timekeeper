@@ -1,27 +1,43 @@
 /**
  * Created by admin on 5/10/2016.
  */
-/**
- * Created by Jack Bui on 1/28/2016.
- */
 
-(function() {
-    window.App = {
-        Models : {},
-        Views : {},
-        Collections : {},
-        Routers: {}
-    };
+(function($) {
     $(function(){
-        App.Views.Staff = Backbone.View.extend({
+        Views.Staff = Views.Base.extend({
             el: '#create-staff',
             events: {
                 'click .add-staff' : 'create_staff',
                 'click .add-image' : 'add_image'
             },
+            initialize: function(options) {
+                this.base = new Views.Base();
+            },
+            validate : function() {
+                $('#form-create-staff').validate({
+                    rules: {
+                        fullname: {
+                            required: true
+                        },
+                        gender: {
+                            required: true
+                        },
+                        mobile: {
+
+                        },
+                        salary: {
+                            required: true,
+                            min: 1
+                        },
+                        department: {
+                            required: true
+                        }
+                    }
+                });
+            },
             create_staff: function() {
-                alert('Hello');
-                return false;
+                this.validate();
+                this.base.dc_notify("Hello World, What are you doing Hello World","success");
             },
             add_image: function(){
                 alert('Chào');
@@ -29,10 +45,7 @@
             }
         });
 
-        new App.Views.Staff;
+        new Views.Staff;
     });
-
-
-
-})();
+})(jQuery);
 

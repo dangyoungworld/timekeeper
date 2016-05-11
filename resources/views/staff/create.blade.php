@@ -25,6 +25,7 @@
                     {!! Form::radio('gender', Constants::$gender['male']) !!} Nam
                     {!! Form::radio('gender', Constants::$gender['female']) !!} Nữ
                     {!! Form::radio('gender', Constants::$gender['other']) !!} Khác
+                    <label id="gender-error" class="error" for="gender"></label>
                     {!! Form::label('Số điện thoại') !!}
                     {!! Form::text('mobile', '', ['class' => 'form-control', 'type' => 'tel']) !!}
                     {!! Form::label('Địa chỉ') !!}

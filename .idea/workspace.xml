@@ -5,15 +5,348 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66e7cc64-225b-4b16-aa86-9db426cfdacf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/module/staff.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/core.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/StaffController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/StaffController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/css/style.css" afterPath="$PROJECT_DIR$/public/assets/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/js/module/staff.js" afterPath="$PROJECT_DIR$/public/assets/js/module/staff.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layout/base.blade.php" afterPath="$PROJECT_DIR$/resources/views/layout/base.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/staff/create.blade.php" afterPath="$PROJECT_DIR$/resources/views/staff/create.blade.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/js/jquery-2.2.3.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-2.2.3.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/Gruntfile.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/Gruntfile.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/README.md" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/ajaxSubmit-integration-demo.html" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/ajaxSubmit-integration-demo.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/bootstrap/index.html" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/bootstrap/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/captcha/captcha.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/captcha/captcha.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/captcha/fonts/Anorexia.ttf" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/captcha/fonts/Anorexia.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/captcha/image_req.php" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/captcha/image_req.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/captcha/images/button.png" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/captcha/images/button.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/captcha/images/image.php" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/captcha/images/image.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/captcha/index.php" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/captcha/index.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/captcha/newsession.php" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/captcha/newsession.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/captcha/process.php" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/captcha/process.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/captcha/rand.php" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/captcha/rand.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/captcha/style.css" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/captcha/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/cinema/index.html" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/cinema/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/cinema/plan_9.jpg" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/cinema/plan_9.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/cinema/refer_madness.jpg" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/cinema/refer_madness.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/cinema/saucer_men.jpg" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/cinema/saucer_men.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/css/cmxform.css" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/css/cmxform.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/css/cmxformTemplate.css" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/css/cmxformTemplate.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/css/core.css" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/css/core.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/css/reset.css" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/css/reset.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/css/screen.css" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/css/screen.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/custom-messages-data-demo.html" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/custom-messages-data-demo.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/custom-methods-demo.html" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/custom-methods-demo.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/dynamic-totals.html" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/dynamic-totals.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/errorcontainer-demo.html" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/errorcontainer-demo.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/errors-within-labels.html" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/errors-within-labels.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/file_input.html" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/file_input.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/images/bg.gif" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/images/bg.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/images/checked.gif" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/images/checked.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/images/cmxform-divider.gif" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/images/cmxform-divider.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/images/cmxform-fieldset.gif" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/images/cmxform-fieldset.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/images/loading.gif" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/images/loading.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/images/unchecked.gif" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/images/unchecked.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/index.html" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/jquerymobile.html" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/jquerymobile.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/login/images/bg.gif" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/login/images/bg.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/login/images/header1.jpg" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/login/images/header1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/login/images/page.gif" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/login/images/page.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/login/images/required_star.gif" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/login/images/required_star.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/login/index.html" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/login/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/login/screen.css" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/login/screen.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/marketo/images/backRequiredGray.gif" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/marketo/images/backRequiredGray.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/marketo/images/back_green-fade.gif" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/marketo/images/back_green-fade.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/marketo/images/back_nav_blue.gif" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/marketo/images/back_nav_blue.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/marketo/images/blank.gif" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/marketo/images/blank.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/marketo/images/button-submit.gif" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/marketo/images/button-submit.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/marketo/images/favicon.ico" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/marketo/images/favicon.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/marketo/images/help.png" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/marketo/images/help.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/marketo/images/left-nav-callout-long.png" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/marketo/images/left-nav-callout-long.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/marketo/images/login-sprite.gif" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/marketo/images/login-sprite.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/marketo/images/logo_marketo.gif" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/marketo/images/logo_marketo.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/marketo/images/sf.png" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/marketo/images/sf.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/marketo/images/step1-24.gif" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/marketo/images/step1-24.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/marketo/images/step2-24.gif" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/marketo/images/step2-24.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/marketo/images/step3-24.gif" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/marketo/images/step3-24.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/marketo/images/tab-sprite.gif" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/marketo/images/tab-sprite.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/marketo/images/tab_green.gif" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/marketo/images/tab_green.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/marketo/images/time.png" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/marketo/images/time.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/marketo/images/toggle.gif" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/marketo/images/toggle.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/marketo/images/warning.gif" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/marketo/images/warning.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/marketo/index.html" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/marketo/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/marketo/jquery.maskedinput.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/marketo/jquery.maskedinput.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/marketo/mktSignup.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/marketo/mktSignup.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/marketo/step2.htm" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/marketo/step2.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/marketo/stylesheet.css" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/marketo/stylesheet.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/milk/bg.gif" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/milk/bg.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/milk/index.html" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/milk/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/milk/left_white.png" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/milk/left_white.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/milk/milk.css" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/milk/milk.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/milk/milk.png" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/milk/milk.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/milk/right_white.png" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/milk/right_white.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/multipart/index.html" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/multipart/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/multipart/style.css" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/multipart/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/radio-checkbox-select-demo.html" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/radio-checkbox-select-demo.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/requirejs/app.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/requirejs/app.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/requirejs/index.html" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/requirejs/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/semantic-ui/index.html" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/semantic-ui/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/site-demos.css" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/site-demos.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/themerollered.html" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/themerollered.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/tinymce/index.html" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/tinymce/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/tinymce/themes/simple/editor_template.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/tinymce/themes/simple/editor_template.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/tinymce/themes/simple/img/icons.gif" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/tinymce/themes/simple/img/icons.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/tinymce/themes/simple/langs/en.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/tinymce/themes/simple/langs/en.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/tinymce/themes/simple/skins/default/ui.css" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/tinymce/themes/simple/skins/default/ui.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/tinymce/tiny_mce.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/tinymce/tiny_mce.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/demo/tinymce4/index.html" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/demo/tinymce4/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/additional-methods.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/additional-methods.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/additional-methods.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/additional-methods.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/jquery.validate.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/jquery.validate.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/jquery.validate.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/jquery.validate.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_ar.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_ar.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_ar.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_ar.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_bg.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_bg.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_bg.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_bg.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_bn_BD.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_bn_BD.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_bn_BD.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_bn_BD.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_ca.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_ca.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_ca.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_ca.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_cs.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_cs.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_cs.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_cs.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_da.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_da.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_da.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_da.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_de.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_de.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_de.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_de.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_el.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_el.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_el.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_el.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_es.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_es.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_es.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_es.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_es_AR.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_es_AR.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_es_AR.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_es_AR.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_es_PE.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_es_PE.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_es_PE.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_es_PE.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_et.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_et.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_et.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_et.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_eu.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_eu.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_eu.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_eu.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_fa.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_fa.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_fa.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_fa.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_fi.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_fi.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_fi.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_fi.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_fr.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_fr.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_fr.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_fr.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_ge.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_ge.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_ge.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_ge.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_gl.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_gl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_gl.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_gl.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_he.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_he.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_he.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_he.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_hr.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_hr.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_hr.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_hr.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_hu.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_hu.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_hu.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_hu.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_hy_AM.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_hy_AM.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_hy_AM.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_hy_AM.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_id.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_id.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_id.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_id.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_is.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_is.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_is.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_is.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_it.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_it.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_it.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_it.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_ja.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_ja.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_ja.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_ja.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_ka.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_ka.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_ka.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_ka.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_kk.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_kk.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_kk.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_kk.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_ko.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_ko.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_ko.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_ko.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_lt.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_lt.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_lt.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_lt.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_lv.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_lv.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_lv.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_lv.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_mk.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_mk.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_mk.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_mk.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_my.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_my.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_my.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_my.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_nl.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_nl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_nl.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_nl.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_no.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_no.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_no.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_no.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_pl.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_pl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_pl.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_pl.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_pt_BR.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_pt_BR.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_pt_BR.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_pt_BR.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_pt_PT.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_pt_PT.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_pt_PT.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_pt_PT.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_ro.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_ro.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_ro.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_ro.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_ru.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_ru.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_ru.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_ru.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_si.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_si.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_si.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_si.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_sk.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_sk.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_sk.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_sk.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_sl.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_sl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_sl.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_sl.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_sr.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_sr.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_sr.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_sr.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_sr_lat.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_sr_lat.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_sr_lat.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_sr_lat.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_sv.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_sv.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_sv.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_sv.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_th.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_th.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_th.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_th.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_tj.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_tj.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_tj.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_tj.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_tr.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_tr.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_tr.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_tr.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_uk.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_uk.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_uk.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_uk.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_vi.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_vi.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_vi.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_vi.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_zh.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_zh.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_zh.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_zh.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_zh_TW.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_zh_TW.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/messages_zh_TW.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/messages_zh_TW.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/methods_de.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/methods_de.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/methods_de.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/methods_de.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/methods_es_CL.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/methods_es_CL.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/methods_es_CL.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/methods_es_CL.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/methods_fi.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/methods_fi.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/methods_fi.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/methods_fi.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/methods_nl.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/methods_nl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/methods_nl.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/methods_nl.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/methods_pt.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/methods_pt.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/localization/methods_pt.min.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/localization/methods_pt.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/lib/jquery-1.11.1.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/lib/jquery-1.11.1.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/lib/jquery-1.7.2.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/lib/jquery-1.7.2.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/lib/jquery-1.8.3.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/lib/jquery-1.8.3.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/lib/jquery-1.9.1.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/lib/jquery-1.9.1.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/lib/jquery.form.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/lib/jquery.form.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/lib/jquery.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/lib/jquery.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/lib/jquery.mockjax.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/lib/jquery.mockjax.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/lib/jquery.simulate.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/lib/jquery.simulate.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/lib/require.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/lib/require.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/package.json" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/accept.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/accept.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/additional.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/additional.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/alphanumeric.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/alphanumeric.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/bankaccountNL.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/bankaccountNL.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/bankorgiroaccountNL.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/bankorgiroaccountNL.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/bic.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/bic.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/cifES.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/cifES.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/cpfBR.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/cpfBR.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/creditcard.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/creditcard.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/creditcardtypes.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/creditcardtypes.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/currency.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/currency.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/dateFA.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/dateFA.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/dateITA.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/dateITA.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/dateNL.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/dateNL.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/extension.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/extension.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/giroaccountNL.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/giroaccountNL.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/iban.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/iban.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/integer.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/integer.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/ipv4.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/ipv4.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/ipv6.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/ipv6.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/lettersonly.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/lettersonly.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/letterswithbasicpunc.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/letterswithbasicpunc.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/mobileNL.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/mobileNL.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/mobileUK.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/mobileUK.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/nieES.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/nieES.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/nifES.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/nifES.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/notEqualTo.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/notEqualTo.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/nowhitespace.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/nowhitespace.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/pattern.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/pattern.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/phoneNL.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/phoneNL.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/phoneUK.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/phoneUK.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/phoneUS.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/phoneUS.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/phonesUK.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/phonesUK.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/postalCodeCA.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/postalCodeCA.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/postalcodeBR.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/postalcodeBR.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/postalcodeIT.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/postalcodeIT.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/postalcodeNL.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/postalcodeNL.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/postcodeUK.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/postcodeUK.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/require_from_group.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/require_from_group.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/skip_or_fill_minimum.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/skip_or_fill_minimum.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/statesUS.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/statesUS.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/strippedminlength.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/strippedminlength.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/time.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/time.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/time12h.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/time12h.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/url2.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/url2.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/vinUS.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/vinUS.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/zipcodeUS.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/zipcodeUS.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/additional/ziprange.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/additional/ziprange.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/ajax.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/ajax.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/core.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/core.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_ar.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_ar.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_bg.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_bg.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_bn_BD.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_bn_BD.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_ca.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_ca.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_cs.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_cs.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_da.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_da.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_de.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_de.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_el.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_el.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_es.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_es.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_es_AR.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_es_AR.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_es_PE.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_es_PE.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_et.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_et.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_eu.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_eu.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_fa.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_fa.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_fi.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_fi.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_fr.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_fr.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_ge.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_ge.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_gl.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_gl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_he.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_he.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_hr.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_hr.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_hu.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_hu.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_hy_AM.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_hy_AM.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_id.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_id.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_is.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_is.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_it.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_it.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_ja.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_ja.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_ka.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_ka.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_kk.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_kk.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_ko.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_ko.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_lt.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_lt.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_lv.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_lv.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_mk.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_mk.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_my.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_my.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_nl.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_nl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_no.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_no.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_pl.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_pl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_pt_BR.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_pt_BR.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_pt_PT.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_pt_PT.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_ro.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_ro.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_ru.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_ru.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_si.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_si.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_sk.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_sk.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_sl.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_sl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_sr.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_sr.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_sr_lat.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_sr_lat.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_sv.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_sv.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_th.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_th.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_tj.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_tj.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_tr.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_tr.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_uk.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_uk.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_vi.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_vi.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_zh.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_zh.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_zh_TW.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_zh_TW.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/methods_de.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/methods_de.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/methods_es_CL.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/methods_es_CL.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/methods_fi.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/methods_fi.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/methods_nl.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/methods_nl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/methods_pt.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/methods_pt.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/test/additional/creditcard.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/test/additional/creditcard.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/test/aria.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/test/aria.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/test/error-placement.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/test/error-placement.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/test/index.html" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/test/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/test/messages.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/test/messages.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/test/methods.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/test/methods.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/test/qunit/qunit.css" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/test/qunit/qunit.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/test/qunit/qunit.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/test/qunit/qunit.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/test/rules.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/test/rules.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/test/test.js" afterPath="$PROJECT_DIR$/public/assets/extends/jquery-validation/test/test.js" />
     </list>
     <ignored path="timekeeper.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,8 +391,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+            <state relative-caret-position="85">
+              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -68,8 +401,8 @@
       <file leaf-file-name="base.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/layout/base.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+            <state relative-caret-position="153">
+              <caret line="9" column="76" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -78,32 +411,20 @@
       <file leaf-file-name="staff.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/assets/js/module/staff.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+            <state relative-caret-position="561">
+              <caret line="39" column="93" selection-start-line="39" selection-start-column="93" selection-end-line="39" selection-end-column="93" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="additional-methods.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/additional-methods.js">
+      <file leaf-file-name="core.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/assets/js/core.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="433">
+              <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="messages_es.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_es.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#0#41#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -112,8 +433,8 @@
       <file leaf-file-name="create.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/staff/create.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="76" selection-start-line="32" selection-start-column="76" selection-end-line="32" selection-end-column="85" />
+            <state relative-caret-position="357">
+              <caret line="27" column="72" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -122,18 +443,8 @@
       <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="442">
               <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Request.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Requests/Request.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -187,9 +498,10 @@
         <option value="$PROJECT_DIR$/config/constants.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/StaffController.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/resources/views/staff/create.blade.php" />
         <option value="$PROJECT_DIR$/public/assets/css/style.css" />
         <option value="$PROJECT_DIR$/resources/views/layout/base.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/staff/create.blade.php" />
+        <option value="$PROJECT_DIR$/public/assets/js/core.js" />
         <option value="$PROJECT_DIR$/public/assets/js/module/staff.js" />
       </list>
     </option>
@@ -263,8 +575,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -348,6 +658,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="timekeeper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="timekeeper" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -465,11 +797,13 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../microjob" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
@@ -539,19 +873,20 @@
       <updated>1462676218987</updated>
       <workItem from="1462759393445" duration="20082000" />
       <workItem from="1462845598341" duration="9146000" />
+      <workItem from="1462930900875" duration="7513000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29228000" />
+    <option name="totallyTimeSpent" value="36741000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.225" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.225" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -590,28 +925,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/RouteServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="28" column="34" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Backend/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -780,9 +1093,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
-          <folding>
-            <element signature="e#8#49#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -790,7 +1100,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -798,7 +1107,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="21" column="51" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -806,7 +1114,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -814,7 +1121,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -822,7 +1128,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -830,7 +1135,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -838,7 +1142,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -846,7 +1149,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="207" column="52" selection-start-line="207" selection-start-column="52" selection-end-line="207" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -854,7 +1156,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -863,7 +1164,7 @@
         <state relative-caret-position="322">
           <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
           <folding>
-            <element signature="e#7#48#0#PHP" expanded="true" />
+            <element signature="e#7#48#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -872,7 +1173,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="15" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -886,7 +1186,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="442">
           <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
           <folding />
         </state>
@@ -908,54 +1208,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/css/style.css">
+    <entry file="file://$PROJECT_DIR$/public/assets/extends/jquery-validation/dist/additional-methods.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/dist/additional-methods.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="204">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layout/base.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/extends/jquery-validation-1.15.0/src/localization/messages_es.js">
+    <entry file="file://$PROJECT_DIR$/public/assets/extends/jquery-validation/src/localization/messages_es.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/staff/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="76" selection-start-line="32" selection-start-column="76" selection-end-line="32" selection-end-column="85" />
+        <state relative-caret-position="357">
+          <caret line="27" column="72" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/extends/notify.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-835">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/extends/notify.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="528" column="4" selection-start-line="528" selection-start-column="4" selection-end-line="528" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layout/base.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="76" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/core.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/js/module/staff.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+        <state relative-caret-position="561">
+          <caret line="39" column="93" selection-start-line="39" selection-start-column="93" selection-end-line="39" selection-end-column="93" />
           <folding />
         </state>
       </provider>
