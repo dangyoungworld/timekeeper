@@ -1,0 +1,9 @@
+form label{
+    display: inline-table;
+    width: 100%;
+}
+form label.error{
+    color: red;
+    font-style: italic;
+    font-weight: 300;
+}
